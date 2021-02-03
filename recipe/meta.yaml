@@ -1,5 +1,5 @@
 {% set name = "netsuitesdk" %}
-{% set version = "1.13.0" %}
+{% set version = "1.13.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/netsuitesdk-{{ version }}.tar.gz
-  sha256: 03be598027eab3dcaf121f41bd2f944c1ac35380d2427c026ff11e23a649aa92
+  sha256: 82c485619aac642d3a97d5fa383099136a0ee387b1585ff509877571916bd525
 
 build:
   number: 0
